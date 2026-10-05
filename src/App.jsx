@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import mihretuPhoto from "./assets/mihretu.jpg";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,6 +57,11 @@ function App() {
         >
           WELCOME TO MY PORTFOLIO
         </motion.p>
+        <img
+  src={mihretuPhoto}
+  alt="Mihiretu Yeshi"
+  className="profile-photo"
+/>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
