@@ -76,7 +76,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4 }}
         >
-          Software Developer
+       Full-Stack Software Developer
         </motion.h2>
 
         <motion.p
